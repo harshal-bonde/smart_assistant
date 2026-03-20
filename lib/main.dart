@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:smart_assistant/core/di/initial_binding.dart';
-import 'package:smart_assistant/core/routes/app_pages.dart';
-import 'package:smart_assistant/core/routes/app_routes.dart';
-import 'package:smart_assistant/core/theme/app_theme.dart';
-import 'package:smart_assistant/features/chat/domain/entities/chat_message.dart';
+import 'package:smart_assistant/config/app_binding.dart';
+import 'package:smart_assistant/routes/app_pages.dart';
+import 'package:smart_assistant/routes/app_routes.dart';
+import 'package:smart_assistant/common/themes/app_theme.dart';
+import 'package:smart_assistant/chat/domain/data_class/chat_message.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,7 +32,7 @@ class SmartAssistantApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.light,
-      initialBinding: InitialBinding(),
+      initialBinding: AppBinding(),
       initialRoute: AppRoutes.home,
       getPages: AppPages.pages,
     );

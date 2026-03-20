@@ -23,7 +23,8 @@ void main() {
     });
 
     test('returns keyword-matched response for "state management"', () async {
-      final response = await dataSource.sendMessage('Explain state management');
+      final response =
+          await dataSource.sendMessage('Explain state management');
 
       expect(response, contains('state management'));
     });

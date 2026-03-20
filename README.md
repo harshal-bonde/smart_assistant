@@ -15,15 +15,17 @@ A Flutter-based Smart Assistant application featuring chat functionality, sugges
 
 ## Screenshots
 
-| Home (Light) | Chat (Light) | History (Light) |
+### Light Mode
+
+| Home | Chat | History |
 |:---:|:---:|:---:|
 | <img src="screenshots/home_light.png" width="250"/> | <img src="screenshots/chat_light.png" width="250"/> | <img src="screenshots/history_light.png" width="250"/> |
 
-| Home (Dark) | Chat (Dark) | History (Dark) |
+### Dark Mode
+
+| Home | Chat | History |
 |:---:|:---:|:---:|
 | <img src="screenshots/home_dark.png" width="250"/> | <img src="screenshots/chat_dark.png" width="250"/> | <img src="screenshots/history_dark.png" width="250"/> |
-
-> **Note:** Add screenshots to a `screenshots/` folder in the project root.
 
 ## Architecture
 
